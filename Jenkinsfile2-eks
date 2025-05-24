@@ -17,7 +17,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: '
+                git branch: 'main', url: 'https://github.com/189preetis/Starbucks-DevSecOps.git'
             }
         }
         stage("Sonarqube Analysis "){
